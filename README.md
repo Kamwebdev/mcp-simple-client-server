@@ -12,6 +12,16 @@ Model Context Protocol (MCP) — showing how to:
 
 The project is intentionally simple and clean, making it an ideal starting point for building your own MCP-powered automations, assistants and local AI integrations.
 
+## Tutorial  [PL] 
+
+All code and content are authored by me.
+
+### Available Parts
+
+- **Part 1:** [Tworzenie serwera MCP](https://blog.kamdev.pl/post/praktyczne-mcp-tworzymy-serwer-z-narzedziami/)
+
+- **Part 2:** [Połączenie Ollamy z MCP](https://blog.kamdev.pl/post/praktyczne-mcp-jak-polaczyc-mcp-z-ollama/)
+
 ## Install:
 ```
 python -m venv .venv
