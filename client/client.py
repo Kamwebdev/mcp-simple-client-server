@@ -15,6 +15,10 @@ MODEL = os.getenv("MODEL")
 
 
 async def mcp_client():
+    """
+    Connects to the MCP server, retrieves available tools, and runs a loop where
+    a local LLM (Ollama) can call these tools until a final answer is produced.
+    """
     client = Client(MCP_URL)
 
     async with client:
@@ -74,4 +78,4 @@ async def mcp_client():
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    asyncio.run(mcp_client())
